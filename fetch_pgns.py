@@ -8,9 +8,14 @@ import getpass
 import os
 import selenium
 
+print('''Please choose a login option by specifying the number in parentheses:
+(1) chess.com
+(2) facebook''')
+option = input('> ')
+
 # load credentials into memory
-username = input('chess.com username: ')
-password = getpass.getpass('password for chess.com user "{}": '.format(username))
+username = input('username: ')
+password = getpass.getpass('password for "{}": '.format(username))
 
 # spin up chrome
 path = os.path.dirname(os.path.realpath(__file__))
@@ -27,10 +32,18 @@ try:
 except selenium.common.exceptions.NoSuchElementException:
     pass
 
-# login
-chrome.find_element_by_id('username').send_keys(username)
-chrome.find_element_by_id('password').send_keys(password)
-chrome.find_element_by_id('login').click()
+if option == '1':
+    print('logging in with chess.com credentials')
+    chrome.find_element_by_id('username').send_keys(username)
+    chrome.find_element_by_id('password').send_keys(password)
+    chrome.find_element_by_id('login').click()
+
+elif option == '2':
+    print('logging in with facebook credentials')
+    chrome.find_element_by_xpath('//a[@title="Connect with Facebook"]').click()
+    chrome.find_element_by_id('email').send_keys(username)
+    chrome.find_element_by_id('pass').send_keys(password)
+    chrome.find_element_by_id('loginbutton').click()
 
 # navigate to games archive
 chrome.get('https://www.chess.com/games/archive?gameOwner=my_game&gameType=live')
