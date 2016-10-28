@@ -67,4 +67,5 @@ chrome.find_element_by_css_selector('thead input').click()
 
 # download selected game PGNs
 chrome.find_element_by_xpath('//a[@title="Download"]').click()
+print('Please allow Google Chrome time to complete download before quitting out of it.')
 
