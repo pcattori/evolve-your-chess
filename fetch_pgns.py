@@ -3,7 +3,6 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-#import contextlib
 import getpass
 import os
 import selenium
@@ -18,9 +17,14 @@ username = input('username: ')
 password = getpass.getpass('password for "{}": '.format(username))
 
 # spin up chrome
-path = os.path.dirname(os.path.realpath(__file__))
-chrome = webdriver.Chrome(os.path.join(path, 'chromedriver'))
-#with contextlib.closing(webdriver.Chrome(os.path.join(path, 'chromedriver'))) as chrome:
+dirpath = os.path.dirname(os.path.realpath(__file__))
+chromedriver_path = os.path.join(dirpath, 'chromedriver')
+if not os.path.exists(chromedriver_path):
+    chromedriver_url = 'https://sites.google.com/a/chromium.org/chromedriver/'
+    print('Please install the chromedriver binary ({}) to {}'.format(
+        chromedriver_url, dirpath))
+    import sys; sys.exit()
+chrome = webdriver.Chrome(chromedriver_path)
 
 # navigate to login screen
 login_url = 'https://www.chess.com/login'
@@ -32,12 +36,13 @@ try:
 except selenium.common.exceptions.NoSuchElementException:
     pass
 
+
+# TODO check if login succeeded, otherwise exit
 if option == '1':
     print('logging in with chess.com credentials')
     chrome.find_element_by_id('username').send_keys(username)
     chrome.find_element_by_id('password').send_keys(password)
     chrome.find_element_by_id('login').click()
-
 elif option == '2':
     print('logging in with facebook credentials')
     chrome.find_element_by_xpath('//a[@title="Connect with Facebook"]').click()
