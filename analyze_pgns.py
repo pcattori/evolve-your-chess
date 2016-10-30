@@ -1,3 +1,4 @@
+import chess
 import collections
 import matplotlib.pyplot as plt
 import networkx as nx
@@ -7,77 +8,76 @@ import sys
 from tqdm import tqdm
 
 def only_moves(moves):
-    for move in moves:
+    # ignore comments wrapped in curly brackets
+    for move in moves[:-1]:
         if re.match(r'{[^}]*}', move):
             continue
         else:
             yield move
 
+def fen(board):
+    # treat positions as stateless
+    # TODO handle castling rights and en-passant possibility more gracefully
+    return ' '.join(board.fen().split()[:-2])
+
 def game_tree(games):
     tree = nx.DiGraph()
 
-    nodes = set()
+    nodes = collections.defaultdict(int)
     edges = collections.defaultdict(int)
     for game in tqdm(games):
-
-        # compute moves
+        board = chess.Board()
+        positions = [fen(board)]
         moves = []
-        for i, move in enumerate(only_moves(game.moves)):
-            ply = '{}{}'.format((i // 2) + 1, '.' if i % 2 == 0 else '...')
-            moves.append((ply, move))
+        for move in only_moves(game.moves):
+            moves.append(move)
+            board.push_san(move)
+            positions.append(fen(board))
 
-        # construct nodes from moves
-        nodes.update(moves)
+        for position in positions:
+            nodes[position] += 1
 
-        # construct edges from moves
-        transitions = zip(['start'] + moves, moves)
+        transitions = zip(positions, moves, positions[1:])
         for transition in transitions:
             edges[transition] += 1
 
     for node in nodes:
         tree.add_node(node)
     for edge, weight in edges.items():
-        tree.add_edge(*edge, weight=weight)
+        pos1, move, pos2 = edge
+        tree.add_edge(pos1, pos2, move=move, weight=weight)
 
     return tree
 
-username = input('username? > ')
+if __name__ == '__main__':
+    username = input('username? > ')
 
+    # read pgns
+    print('reading pgns')
+    with open(sys.argv[1], 'r') as f:
+        games = pgn.loads(f.read())
 
-# read pgns
-print('reading pgns')
-with open(sys.argv[1], 'r') as f:
-    games = pgn.loads(f.read())
+    print('filtering games by color')
+    white_games = [game for game in games if game.white == username]
+    black_games = [game for game in games if game.black == username]
 
+    print('creating white move tree')
+    white_tree = game_tree(white_games)
 
-print('filtering games by color')
-white_games = [game for game in games if game.white == username]
-black_games = [game for game in games if game.black == username]
-
-print('creating white move tree')
-white_tree = game_tree(white_games)
-print('creating black move tree')
-black_tree = game_tree(black_games)
-
-node = 'start'
-while True:
-    moves = [
-        (edge[1], edge[2]['weight'])
-        for edge in white_tree.edges(data=True)
-        if edge[0] == node]
-    moves = sorted(moves, key=lambda m: m[1], reverse=True)
-
-    print(list(enumerate(moves)))
-    node = moves[int(input('which move? > '))][0]
-    print('chose: "{}"'.format(node))
-
-# print('plotting')
-# pos = nx.spring_layout(white_tree)
-# nx.draw_networkx_nodes(white_tree, pos, node_size=700)
-# nx.draw_networkx_edges(white_tree, pos, width=6)
-# nx.draw_networkx_labels(white_tree, pos, font_size=20, font_family='sans-serif')
-#
-# plt.axis('off')
-# plt.savefig("weighted_graph.png") # save as png
-# plt.show() # display
+    position = fen(chess.Board())
+    #print(next(iter(white_tree.edges(data=True))))
+    while True:
+        print(chess.Board(position + ' 0 0'))
+        moves = [
+            (edge[2]['move'], edge[2]['weight'])
+            for edge in white_tree.edges(data=True)
+            if edge[0] == position
+        ]
+        moves = sorted(moves, key=lambda m: m[1], reverse=True)
+        print(list(enumerate(moves)))
+        move = moves[int(input('which move? > '))][0]
+        print('chose: "{}"'.format(move))
+        board = chess.Board(position + ' 0 0')
+        board.push_san(move)
+        position = fen(board)
 
