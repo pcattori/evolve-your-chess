@@ -66,6 +66,8 @@ while True:
     more = chrome.find_element_by_css_selector('.load-more-container a')
     more.click()
     games += 100
+    if games >= 1000:
+        break
 
 # select all games
 chrome.find_element_by_css_selector('thead input').click()
