@@ -31,9 +31,13 @@ def only_moves(moves):
             yield move
 
 def fen(board):
-    # treat positions as stateless
-    # TODO handle castling rights and en-passant possibility more gracefully
-    return ' '.join(board.fen().split()[:-2])
+    (position, color, castling_rights, en_passant,
+        half_move, full_move) = board.fen().split()
+    # TODO handle castling rights and en-passant
+    return '{} {}'.format(position, color)
+
+def stateless_board(position_color):
+    return chess.Board('{} KQkq - 0 0'.format(position_color))
 
 def game_tree(games):
     tree = nx.DiGraph()
@@ -80,9 +84,8 @@ if __name__ == '__main__':
     white_tree = game_tree(white_games)
 
     position = fen(chess.Board())
-    #print(next(iter(white_tree.edges(data=True))))
     while True:
-        print(chess.Board(position + ' 0 0'))
+        print(with_pieces(stateless_board(position)))
         moves = [
             (edge[2]['move'], edge[2]['weight'])
             for edge in white_tree.edges(data=True)
@@ -92,7 +95,7 @@ if __name__ == '__main__':
         print(list(enumerate(moves)))
         move = moves[int(input('which move? > '))][0]
         print('chose: "{}"'.format(move))
-        board = chess.Board(position + ' 0 0')
+        board = stateless_board(position)
         board.push_san(move)
         position = fen(board)
 
