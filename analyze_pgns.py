@@ -7,6 +7,21 @@ import re
 import sys
 from tqdm import tqdm
 
+def with_pieces(board):
+    return str(board) \
+        .replace('K', '♚') \
+        .replace('Q', '♛') \
+        .replace('R', '♜') \
+        .replace('B', '♝') \
+        .replace('N', '♞') \
+        .replace('P', '♟') \
+        .replace('k', '♔') \
+        .replace('q', '♕') \
+        .replace('r', '♖') \
+        .replace('b', '♗') \
+        .replace('n', '♘') \
+        .replace('p', '♙')
+
 def only_moves(moves):
     # ignore comments wrapped in curly brackets
     for move in moves[:-1]:
