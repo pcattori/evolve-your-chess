@@ -1,3 +1,13 @@
 beautifulsoup4==4.5.1
+decorator==4.0.10
+networkx==1.11
+numpy==1.11.2
+pgnparser==1.0
+pipdeptree==0.8.0
+python-chess==0.15.3
 requests==2.11.1
+require.py==2.0.0
 selenium==3.0.1
+sh==1.11
+six==1.10.0
+tqdm==4.8.4
