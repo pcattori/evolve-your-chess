@@ -8,6 +8,7 @@ import zipfile
 from require import require
 config = require('../config.py')
 
+# Detecting 64-bit OS: http://stackoverflow.com/a/6107982/1490091
 is_64bits = sys.maxsize > 2**32
 
 zip_filename_template = 'chromedriver_{}.zip'
