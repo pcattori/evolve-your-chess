@@ -1,43 +1,19 @@
-import chess
 import collections
-import matplotlib.pyplot as plt
 import networkx as nx
 import pgn
 import re
 import sys
 from tqdm import tqdm
 
-def with_pieces(board):
-    return str(board) \
-        .replace('K', '♚') \
-        .replace('Q', '♛') \
-        .replace('R', '♜') \
-        .replace('B', '♝') \
-        .replace('N', '♞') \
-        .replace('P', '♟') \
-        .replace('k', '♔') \
-        .replace('q', '♕') \
-        .replace('r', '♖') \
-        .replace('b', '♗') \
-        .replace('n', '♘') \
-        .replace('p', '♙')
-
-def only_moves(moves):
-    # ignore comments wrapped in curly brackets
-    for move in moves[:-1]:
-        if re.match(r'{[^}]*}', move):
-            continue
-        else:
-            yield move
-
-def fen(board):
-    (position, color, castling_rights, en_passant,
-        half_move, full_move) = board.fen().split()
-    # TODO handle castling rights and en-passant
-    return '{} {}'.format(position, color)
+def move_filter(move):
+    comment_pattern = r'{[^}]*}'
+    score_pattern = r'(?:1-0)|(?:0-1)|(?:1/2-1/2)'
+    return \
+        not re.match(comment_pattern, move) and \
+        not re.match(score_pattern, move)
 
 def stateless_board(position_color):
-    return chess.Board('{} KQkq - 0 0'.format(position_color))
+    return Board('{} KQkq - 0 0'.format(position_color))
 
 def game_tree(games):
     tree = nx.DiGraph()
@@ -45,13 +21,13 @@ def game_tree(games):
     nodes = collections.defaultdict(int)
     edges = collections.defaultdict(int)
     for game in tqdm(games):
-        board = chess.Board()
-        positions = [fen(board)]
+        board = Board()
+        positions = [board.stateless_fen()]
         moves = []
-        for move in only_moves(game.moves):
+        for move in filter(move_filter, game.moves):
             moves.append(move)
             board.push_san(move)
-            positions.append(fen(board))
+            positions.append(board.stateless_fen())
 
         for position in positions:
             nodes[position] += 1
@@ -63,8 +39,8 @@ def game_tree(games):
     for node in nodes:
         tree.add_node(node)
     for edge, weight in edges.items():
-        pos1, move, pos2 = edge
-        tree.add_edge(pos1, pos2, move=move, weight=weight)
+        from_pos, move, to_pos = edge
+        tree.add_edge(from_pos, to_pos, move=move, weight=weight)
 
     return tree
 
@@ -83,9 +59,9 @@ if __name__ == '__main__':
     print('creating white move tree')
     white_tree = game_tree(white_games)
 
-    position = fen(chess.Board())
+    position = Board().stateless_fen()
     while True:
-        print(with_pieces(stateless_board(position)))
+        print(stateless_board(position))
         moves = [
             (edge[2]['move'], edge[2]['weight'])
             for edge in white_tree.edges(data=True)
@@ -97,5 +73,5 @@ if __name__ == '__main__':
         print('chose: "{}"'.format(move))
         board = stateless_board(position)
         board.push_san(move)
-        position = fen(board)
+        position = board.stateless_fen()
 
