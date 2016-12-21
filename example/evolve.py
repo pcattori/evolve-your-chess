@@ -19,7 +19,7 @@ analyzer = eyc.Analyzer(engine)
 for color in ['White', 'Black']:
 
     games = [game for game in all_games if game.headers[color] == 'pcattori']
-    print('Constructing {} graph'.format(color))
+    print('\nConstructing {} graph'.format(color))
     graph = eyc.Graph(tqdm(games), color[0].lower())
 
     print('Finding MCB for', color)
