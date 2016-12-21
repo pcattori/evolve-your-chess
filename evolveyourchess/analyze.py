@@ -30,7 +30,7 @@ class Analyzer:
     def consult(self, position):
         with info_handler(self.engine) as info:
             self.engine.position(eyc.Board(position))
-            self.engine.go(movetime=5e1)
+            self.engine.go(movetime=1e2)
             return info.info
 
     def cp_diff(self, start_position, end_position):
