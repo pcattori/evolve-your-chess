@@ -13,11 +13,9 @@ import selenium
 import sys
 import time
 
-# TODO by default last 1000 blitz games, else provide custom url
-# TODO download each page separately
-
 chromedriver_path = sys.argv[1]
 pgns_dir = sys.argv[2]
+# TODO by default last 1000 blitz games, else provide custom url and/or page count
 
 print('''Please choose a login option by specifying the number in parentheses:
 (1) chess.com
