@@ -34,9 +34,11 @@ class Analyzer:
             return info.info
 
     def cp_diff(self, start_position, end_position):
-        start_score = self.consult(start_position)['score'][1].cp
-        end_score = self.consult(end_position)['score'][1].cp * -1 # invert for colors
-        return start_score - end_score
+        start_score = self.consult(start_position)['score'][1]
+        end_score = self.consult(end_position)['score'][1]
+        if start_score.cp is None or end_score.cp is None:
+            raise NotImplementedError('Analyzer cannot handle checkmate detection')
+        return start_score.cp - (end_score.cp * -1)
 
     def most_common_blunder(self, graph, centipawns=100, progress=lambda loop: loop):
         # transitions by frequency
