@@ -25,6 +25,7 @@ for color in ['White', 'Black']:
     print('Finding MCB for', color)
     position, _, move = analyzer.most_common_blunder(graph, progress=tqdm)
     board = eyc.Board(position)
+    print(board.fen())
     print(board)
     print('You played: {} ({} times)'.format(
         board.san(move['move']), len(move['play_refs'])))
