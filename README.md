@@ -4,7 +4,7 @@ Improve your chess via batch analysis and Darwinian selection!
 
 In other words, let EYC find your "Most Common Blunder" (MCB).
 
-:zap: Batteries included: Comes bundled with Stockfish 8
+:zap: Batteries included: Comes bundled with [Stockfish 8](https://stockfishchess.org/)
 
 ## Installing
 
