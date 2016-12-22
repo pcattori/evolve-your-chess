@@ -19,5 +19,6 @@ setup(
         'beautifulsoup4==4.5.1',
         'requests==2.12.4',
         'selenium==3.0.2',
-        'tqdm==4.10.0']}
+        'tqdm==4.10.0']},
+    scripts=['fetch/eyc-chess-dot-com-pgns', 'fetch/eyc-eco']
 )
