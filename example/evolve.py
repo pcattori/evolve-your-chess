@@ -2,9 +2,6 @@ import evolveyourchess as eyc
 from tqdm import tqdm
 import sys
 
-from require import require
-config = require('./config.py')
-
 # read pgns into games
 print('Loading PGNs')
 all_games = []
