@@ -16,7 +16,7 @@ $ pip install -e . # link to the library
 
 ## Running Example
 
-Make sure you have followed the [installation instructions](#installing)
+Make sure you have followed the [installation instructions](#installing), then:
 
 ```sh
 $ pip install -r example/requirements.txt
