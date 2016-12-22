@@ -33,8 +33,9 @@ $ pip install -e . # link to the library
 
 ## Running Example
 
+Make sure you have followed the [installation instructions](#installing), then:
+
 ```sh
-$ cd evolve-your-chess
 $ pip install -r example/requirements.txt
 $ python example/evolve.py <your-chess.com-username> [... paths/to/pgns]
 ```
@@ -46,6 +47,8 @@ Example:
 # Fetch utilities
 
 ## Install
+
+Follow the [base installation instructions](#installing), but replace `pip install -e .` with:
 
 ```sh
 $ pip install -e .[fetch]
