@@ -41,16 +41,25 @@ $ pip install -e .[fetch]
 *Requires:* [ChromeDriver expects you to have Chrome installed in the default location for your platform.](https://sites.google.com/a/chromium.org/chromedriver/getting-started)
 
 ```sh
-python fetch/chess_dot_com_pgns.py --output <path/to/output-directory>
+$ eyc-chess-dot-com-pgns
 ```
 
 Downloads PGNs from [your chess.com archives](https://www.chess.com/games/archive).
 
-For short, you can use `-o` for `--output`.
+### Options
 
-You can specify a number of chess.com archive pages with the `-p` or `--pages` flag.
+`-f` or `--filter-url` to provide a chess.com advanced search URL.
+See [Advanced search](#advanced-search) for more details.
 
-You can specify a different selenium driver by providing the path to the driver via the `-d` or `--driver` flag.
+`-o` or `--output` to specify download directory.
+Defaults to `~/Downloads`.
+
+`-p` or `--pages` to specify the number of chess.com archive pages to download.
+Defaults to `20`.
+
+`-d` or `--driver` to specify a different selenium driver.
+Defaults to built-in `chromedriver`.
+*warning* drivers other than `chromedriver` are not officially supported
 
 ### Advanced search
 
@@ -66,12 +75,13 @@ You can leverage chess.com's advanced search capabilities to specify which games
 
 Pass that URL (surrounded by quotes) to the fetcher via the `-f` or `--filter-url` flag.
 
-Make sure your search actually returned some results on chess.com first!
+Make sure your search actually returned some results on chess.com first before
+trying it with `eyc-chess-dot-com-pgns`!
 
 ## ECO JSON fetcher
 
 ```sh
-python fetch/eco.py
+$ eyc-eco
 ```
 
 will print newline-delimited ECO records to your stdout.
