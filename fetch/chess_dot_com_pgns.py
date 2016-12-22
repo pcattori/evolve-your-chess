@@ -35,8 +35,7 @@ print('''Please choose a login option by specifying the number in parentheses:
 (2) facebook''')
 option = int(input('> '))
 if option not in {1, 2}:
-    print('Invalid option "{}"'.format(option))
-    sys.exit(3)
+    raise ValueError('Invalid option "{}"'.format(option))
 
 # load credentials into memory
 username = input('username: ')
@@ -78,8 +77,7 @@ with contextlib.closing(webdriver.Chrome(
 
     # check that login succeeded
     if not chrome.current_url == 'https://www.chess.com/home':
-        print('Incorrect password for user "{}"'.format(username))
-        sys.exit(3)
+        raise ValueError('Incorrect password for user "{}"'.format(username))
 
     # navigate to games archive
     chrome.get(args.filter_url)
