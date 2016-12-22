@@ -1,8 +1,6 @@
 from bs4 import BeautifulSoup
 import collections
-import evolveyourchess as eyc
 import json
-import os
 import re
 import requests
 
