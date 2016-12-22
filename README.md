@@ -26,10 +26,6 @@ Example:
 
 ![evolve-example](assets/evolve.png)
 
-Some things to know:
-- MCB stands for "Most Common Blunder"
-- EYC sorts your moves by frequency and short-circuits once it finds the first move in that list that Stockfish considers a blunder. That's why the "Finding MCB" progress bars do not complete.
-
 # Fetch utilities
 
 ## Install
