@@ -56,12 +56,11 @@ with contextlib.closing(webdriver.Chrome(
     login_url = 'https://www.chess.com/login'
     chrome.get(login_url)
 
-    ## go to chess.com v3
+    # go to chess.com v3
     try:
         chrome.find_element_by_link_text('Try the new Chess.com!').click()
     except selenium.common.exceptions.NoSuchElementException:
         pass
-
 
     if option == 1:
         print('logging in with chess.com credentials')
@@ -98,6 +97,7 @@ with contextlib.closing(webdriver.Chrome(
                 download_success = True
                 break
             time.sleep(1)
+
         # TODO maybe we can get rid of webdriverwait now
         try:
             WebDriverWait(chrome, 10).until(EC.visibility_of_element_located((
@@ -106,23 +106,4 @@ with contextlib.closing(webdriver.Chrome(
             break
         more = chrome.find_element_by_css_selector('.next a')
         more.click()
-
-
-    # timeout = datetime.datetime.now() + datetime.timedelta(minutes=5)
-    # download_success = False
-    # while datetime.datetime.now() < timeout:
-    #     if glob.glob(os.path.join(pgns_dir, '*')) != pgns:
-    #         download_success = True
-    #         break
-    #     time.sleep(1)
-
-    # if not download_success:
-    #     print('Chrome failed to download chess.com PGNs after 5 minutes')
-    #     sys.exit(3)
-
-    # filepath = max(
-    #     glob.glob(os.path.join(pgns_dir, '*')),
-    #     key=os.path.getctime)
-
-    # os.rename(filepath, os.path.join(pgns_dir, 'chess_dot_com.pgn'))
 
