@@ -1,4 +1,3 @@
-import chess.uci as uci
 import evolveyourchess as eyc
 from tqdm import tqdm
 import sys
@@ -13,8 +12,7 @@ for pgn_filepath in sys.argv[2:]:
     with open(pgn_filepath) as f:
         all_games += list(eyc.parse_pgns(f))
 
-engine = uci.popen_engine(config.ENGINE)
-analyzer = eyc.Analyzer(engine)
+analyzer = eyc.Analyzer()
 
 for color in ['White', 'Black']:
 

@@ -10,6 +10,7 @@ import datetime
 import getpass
 import glob
 import os
+import pkg_resources
 import selenium
 import time
 
@@ -17,7 +18,10 @@ import time
 ##########
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-d', '--driver', help='path to chromedriver executable')
+parser.add_argument(
+    '-d', '--driver',
+    default=pkg_resources.resource_filename('fetch', 'bin/chromedriver'),
+    help='path to chromedriver executable')
 parser.add_argument('-o', '--output', help='output directory')
 
 #chrome.get('https://www.chess.com/games/archive?gameOwner=my_game&gameType=live')

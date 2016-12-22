@@ -1,6 +1,7 @@
 import evolveyourchess as eyc
 import chess.uci as uci
 import contextlib
+import pkg_resources
 
 def fake_castling(board_color):
     fake_fen = eyc.FEN(
@@ -24,7 +25,12 @@ def info_handler(engine):
     engine.info_handlers = info_handlers
 
 class Analyzer:
-    def __init__(self, chess_engine, movetime=1e2):
+    def __init__(self, chess_engine=None, movetime=1e2):
+        # TODO contextmanager for engine? engine.quit()
+        if chess_engine is None:
+            stockfish = pkg_resources.resource_filename(
+                'evolveyourchess', 'bin/stockfish-8-popcnt')
+            chess_engine = uci.popen_engine(stockfish)
         self.engine = chess_engine
         self.movetime = movetime
 
