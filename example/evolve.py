@@ -9,7 +9,7 @@ config = require('./config.py')
 # read pgns into games
 print('Loading PGNs')
 all_games = []
-for pgn_filepath in sys.argv[1:]:
+for pgn_filepath in sys.argv[2:]:
     with open(pgn_filepath) as f:
         all_games += list(eyc.parse_pgns(f))
 
@@ -18,7 +18,7 @@ analyzer = eyc.Analyzer(engine)
 
 for color in ['White', 'Black']:
 
-    games = [game for game in all_games if game.headers[color] == 'pcattori']
+    games = [game for game in all_games if game.headers[color] == sys.argv[1]]
     print('\nConstructing {} graph'.format(color))
     graph = eyc.Graph(tqdm(games), color[0].lower())
 
