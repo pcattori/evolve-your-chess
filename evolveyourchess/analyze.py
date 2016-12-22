@@ -24,13 +24,13 @@ def info_handler(engine):
     engine.info_handlers = info_handlers
 
 class Analyzer:
-    def __init__(self, chess_engine):
+    def __init__(self, chess_engine, movetime=1e2):
         self.engine = chess_engine
 
     def consult(self, position):
         with info_handler(self.engine) as info:
             self.engine.position(eyc.Board(position))
-            self.engine.go(movetime=1e2)
+            self.engine.go(movetime=self.movetime)
             return info.info
 
     def cp_diff(self, start_position, end_position):
