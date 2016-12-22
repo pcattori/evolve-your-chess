@@ -40,7 +40,7 @@ $ pip install -e .[fetch]
 
 ## chess.com PGN fetcher
 
-Leverages [`chromedriver`](https://sites.google.com/a/chromium.org/chromedriver/)
+:zap: Batteries included: Comes bundled with [`chromedriver`](https://sites.google.com/a/chromium.org/chromedriver/) so that [selenium](https://github.com/SeleniumHQ/selenium) can download PGNs for you.
 
 *Requires:* [ChromeDriver expects you to have Chrome installed in the default location for your platform.](https://sites.google.com/a/chromium.org/chromedriver/getting-started)
 
