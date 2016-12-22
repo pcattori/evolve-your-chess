@@ -45,16 +45,16 @@ $ pip install -e .[fetch]
 *Requires:* [ChromeDriver expects you to have Chrome installed in the default location for your platform.](https://sites.google.com/a/chromium.org/chromedriver/getting-started)
 
 ```sh
-python fetch/chess_dot_com_pgns.py \
-    --driver <path/to/chromedriver> \
-    --output <path/to/output-directory>
+python fetch/chess_dot_com_pgns.py --output <path/to/output-directory>
 ```
 
 Downloads PGNs from [your chess.com archives](https://www.chess.com/games/archive).
 
-For short, you can use `-d` for `--driver` and `-o` for `--output`.
+For short, you can use `-o` for `--output`.
 
 You can specify a number of chess.com archive pages with the `-p` or `--pages` flag.
+
+You can specify a different selenium driver by providing the path to the driver via the `-d` or `--driver` flag.
 
 ### Advanced search
 
