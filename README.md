@@ -1,7 +1,10 @@
-# evolve-your-chess
+# evolve-your-chess (EYC)
 
 Improve your chess via batch analysis and Darwinian selection!
 
+In other words, let EYC find your "Most Common Blunder" (MCB).
+
+Batteries included: Comes bundled with Stockfish 8
 
 ## Installing
 
@@ -9,14 +12,13 @@ Improve your chess via batch analysis and Darwinian selection!
 $ git clone https://github.com/pcattori/evolve-your-chess
 $ cd evolve-your-chess
 $ pip install -e . # link to the library
-$ pip install -r example/requirements.txt # install external dependencies
 ```
 
-WARNING: You will need a copy of [Stockfish](https://stockfishchess.org/) that is accessible to EYC until EYC bundles in its chess engine dependencies.
-
-## Running
+## Running Example
 
 ```sh
+$ cd evolve-your-chess
+$ pip install -r example/requirements.txt
 $ python example/evolve.py <your-chess.com-username> [... paths/to/pgns]
 ```
 
@@ -38,7 +40,9 @@ $ pip install -e .[fetch]
 
 ## chess.com PGN fetcher
 
-Requires [`chromedriver`](https://sites.google.com/a/chromium.org/chromedriver/)
+Leverages [`chromedriver`](https://sites.google.com/a/chromium.org/chromedriver/)
+
+*Requires:* [ChromeDriver expects you to have Chrome installed in the default location for your platform.](https://sites.google.com/a/chromium.org/chromedriver/getting-started)
 
 ```sh
 python fetch/chess_dot_com_pgns.py \
