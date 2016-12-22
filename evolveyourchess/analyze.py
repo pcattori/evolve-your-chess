@@ -26,6 +26,7 @@ def info_handler(engine):
 class Analyzer:
     def __init__(self, chess_engine, movetime=1e2):
         self.engine = chess_engine
+        self.movetime = movetime
 
     def consult(self, position):
         with info_handler(self.engine) as info:
