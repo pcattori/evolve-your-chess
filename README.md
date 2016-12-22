@@ -16,8 +16,9 @@ $ pip install -e . # link to the library
 
 ## Running Example
 
+Make sure you have followed the [installation instructions](#installing)
+
 ```sh
-$ cd evolve-your-chess
 $ pip install -r example/requirements.txt
 $ python example/evolve.py <your-chess.com-username> [... paths/to/pgns]
 ```
