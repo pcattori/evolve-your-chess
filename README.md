@@ -31,6 +31,8 @@ Example:
 
 ## Install
 
+Follow the [base installation instructions](#installing), but replace `pip install -e .` with:
+
 ```sh
 $ pip install -e .[fetch]
 ```
