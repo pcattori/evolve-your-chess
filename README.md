@@ -12,11 +12,21 @@ $ pip install -e . # link to the library
 $ pip install -r example/requirements.txt # install external dependencies
 ```
 
+WARNING: You will need a copy of [Stockfish](https://stockfishchess.org/) that is accessible to EYC until EYC bundles in its chess engine dependencies.
+
 ## Running
 
 ```sh
 $ python example/evolve.py <your-chess.com-username> [... paths/to/pgns]
 ```
+
+Example:
+
+![evolve-example](assets/evolve.png)
+
+Some things to know:
+- MCB stands for "Most Common Blunder"
+- EYC sorts your moves by frequency and short-circuits once it finds the first move in that list that Stockfish considers a blunder. That's why the "Finding MCB" progress bars do not complete.
 
 # Fetch utilities
 
