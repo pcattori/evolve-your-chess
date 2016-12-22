@@ -11,7 +11,7 @@ In other words, let EYC find your "Most Common Blunder" (MCB).
 ## Table of Contents
 
   * [evolve\-your\-chess (EYC)](#evolve-your-chess-eyc)
-  * [Table of Contents](#table-of-contents)
+    * [Table of Contents](#table-of-contents)
     * [Install](#install)
     * [Running Example](#running-example)
   * [Fetch utilities](#fetch-utilities)
