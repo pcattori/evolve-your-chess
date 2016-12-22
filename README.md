@@ -6,7 +6,24 @@ In other words, let EYC find your "Most Common Blunder" (MCB).
 
 :zap: Batteries included: Comes bundled with [Stockfish 8](https://stockfishchess.org/)
 
-## Installing
+
+
+## Table of Contents
+
+  * [evolve\-your\-chess (EYC)](#evolve-your-chess-eyc)
+  * [Table of Contents](#table-of-contents)
+    * [Install](#install)
+    * [Running Example](#running-example)
+  * [Fetch utilities](#fetch-utilities)
+    * [Install](#install-1)
+    * [chess\.com PGN fetcher](#chesscom-pgn-fetcher)
+      * [Options](#options)
+      * [Advanced search](#advanced-search)
+    * [ECO JSON fetcher](#eco-json-fetcher)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
+
+## Install
 
 ```sh
 $ git clone https://github.com/pcattori/evolve-your-chess
