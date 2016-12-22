@@ -1,0 +1,318 @@
+{"eco": "A42", "name": "Pterodactyl defence", "moves": ["d4", "d6", "c4", "g6", "Nc3", "Bg7", "e4", "c5", "Nf3", "Qa5"]}
+{"eco": "B00", "name": "KP, Nimzovich defence", "moves": ["e4", "Nc6"]}
+{"eco": "C44", "name": "Scotch gambit", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Bc4", "Bb4+", "c3", "dxc3", "bxc3"]}
+{"eco": "E10", "name": "Blumenfeld counter-gambit, Dus-Chotimursky variation", "moves": ["d4", "Nf6", "c4", "e6", "Nf3", "c5", "d5", "b5", "Bg5"]}
+{"eco": "C41", "name": "Philidor, Paulsen attack", "moves": ["e4", "e5", "Nf3", "d6", "d4", "exd4", "Nxd4", "d5", "exd5"]}
+{"eco": "C40", "name": "QP counter-gambit, Maroczy gambit", "moves": ["e4", "e5", "Nf3", "d5", "exd5", "Bd6"]}
+{"eco": "A00", "name": "Amar (Paris) opening", "moves": ["Nh3"]}
+{"eco": "B00", "name": "Reversed Grob (Borg/Basman defence/macho Grob)", "moves": ["e4", "g5"]}
+{"eco": "B01", "name": "Scandinavian, Anderssen counter-attack, Goteborg system", "moves": ["e4", "d5", "exd5", "Qxd5", "Nc3", "Qa5", "d4", "e5", "Nf3"]}
+{"eco": "A00", "name": "Dunst (Sleipner, Heinrichsen) opening", "moves": ["Nc3"]}
+{"eco": "A48-A49", "name": "King's Indian, East Indian defence", "moves": ["d4", "Nf6", "Nf3", "g6"]}
+{"eco": "A50", "name": "Kevitz-Trajkovich defence", "moves": ["d4", "Nf6", "c4", "Nc6"]}
+{"eco": "B00", "name": "King's pawn opening", "moves": ["e4"]}
+{"eco": "A00", "name": "Gedult's opening", "moves": ["f3"]}
+{"eco": "B06", "name": "Robatsch defence, Gurgenidze variation", "moves": ["e4", "g6", "d4", "Bg7", "Nc3", "c6", "f4", "d5", "e5", "h5"]}
+{"eco": "C45", "name": "Scotch, Ghulam Kassim variation", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Nxd4", "Qxd4", "d6", "Bd3"]}
+{"eco": "C45", "name": "Scotch, Steinitz variation", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Qh4", "Nc3"]}
+{"eco": "C46", "name": "Three knights, Schlechter variation", "moves": ["e4", "e5", "Nf3", "Nc6", "Nc3", "Bb4", "Nd5", "Nf6"]}
+{"eco": "A00", "name": "Crab opening", "moves": ["a4", "e5", "h4"]}
+{"eco": "C45", "name": "Scotch, Horwitz attack", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Qh4", "Nb5"]}
+{"eco": "C46", "name": "Three knights, Steinitz, Rosenthal variation", "moves": ["e4", "e5", "Nf3", "Nc6", "Nc3", "g6", "d4", "exd4", "Nd5"]}
+{"eco": "D02", "name": "Queen's pawn game", "moves": ["d4", "d5", "Nf3"]}
+{"eco": "A01", "name": "Nimzovich-Larsen attack, Dutch variation", "moves": ["b3", "f5"]}
+{"eco": "C45", "name": "Scotch, Fraser attack", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Qh4", "Nf3"]}
+{"eco": "C44", "name": "Scotch, Goering gambit, Bardeleben variation", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "c3", "dxc3", "Nxc3", "Bb4", "Bc4", "Nf6"]}
+{"eco": "C46", "name": "Three knights, Steinitz variation", "moves": ["e4", "e5", "Nf3", "Nc6", "Nc3", "g6"]}
+{"eco": "C44", "name": "Ponziani, Fraser defence", "moves": ["e4", "e5", "Nf3", "Nc6", "c3", "Nf6", "d4", "Nxe4", "d5", "Bc5"]}
+{"eco": "A02-A03", "name": "Bird's opening", "moves": ["f4"]}
+{"eco": "C50", "name": "Giuoco Piano, four knights variation", "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5", "Nc3", "Nf6"]}
+{"eco": "C45", "name": "Scotch, Blumenfeld attack", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Bc5", "Be3", "Qf6", "Nb5"]}
+{"eco": "E00", "name": "Queen's pawn game", "moves": ["d4", "Nf6", "c4", "e6"]}
+{"eco": "B01", "name": "Scandinavian, Richter variation", "moves": ["e4", "d5", "exd5", "Nf6", "d4", "g6"]}
+{"eco": "C41", "name": "Philidor, Larsen variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "exd4", "Nxd4", "g6"]}
+{"eco": "C44", "name": "Scotch gambit, Anderssen (Paulsen, Suhle) counter-attack", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Bc4", "Bc5", "O-O", "d6", "c3", "Bg4"]}
+{"eco": "A00", "name": "Mieses opening", "moves": ["d3", "e5"]}
+{"eco": "B01", "name": "Scandinavian, Pytel-Wade variation", "moves": ["e4", "d5", "exd5", "Qxd5", "Nc3", "Qd6"]}
+{"eco": "C44", "name": "Scotch gambit, Benima defence", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Bc4", "Be7"]}
+{"eco": "E10", "name": "Blumenfeld counter-gambit, Spielmann variation", "moves": ["d4", "Nf6", "c4", "e6", "Nf3", "c5", "d5", "b5", "Bg5", "exd5", "cxd5", "h6"]}
+{"eco": "A00", "name": "Valencia opening", "moves": ["d3", "e5", "Nd2"]}
+{"eco": "C41", "name": "Philidor, Hanham variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "Nd7"]}
+{"eco": "C53-C54", "name": "Giuoco Piano", "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5", "c3"]}
+{"eco": "B01", "name": "Scandinavian, Kiel variation", "moves": ["e4", "d5", "exd5", "Nf6", "d4", "Nxd5", "c4", "Nb4"]}
+{"eco": "A60-A79", "name": "Benoni defence", "moves": ["d4", "Nf6", "c4", "c5", "d5", "e6"]}
+{"eco": "C00-C19", "name": "French defence", "moves": ["e4", "e6"]}
+{"eco": "C20", "name": "KP, King's head opening", "moves": ["e4", "e5", "f3"]}
+{"eco": "C50", "name": "Hungarian defence, Tartakower variation", "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4", "Be7", "d4", "exd4", "c3", "Nf6", "e5", "Ne4"]}
+{"eco": "A01", "name": "Nimzovich-Larsen attack, modern variation", "moves": ["b3", "e5"]}
+{"eco": "C44", "name": "Ponziani, Steinitz variation", "moves": ["e4", "e5", "Nf3", "Nc6", "c3", "d5", "Qa4", "f6"]}
+{"eco": "A57-A59", "name": "Benko gambit", "moves": ["d4", "Nf6", "c4", "c5", "d5", "b5"]}
+{"eco": "E20-E59", "name": "Nimzo-Indian defence", "moves": ["d4", "Nf6", "c4", "e6", "Nc3", "Bb4"]}
+{"eco": "C41", "name": "Philidor, Lopez counter-gambit", "moves": ["e4", "e5", "Nf3", "d6", "Bc4", "f5"]}
+{"eco": "C40", "name": "Latvian, Polerio variation", "moves": ["e4", "e5", "Nf3", "f5", "Bc4", "fxe4", "Nxe5", "d5"]}
+{"eco": "C45", "name": "Scotch, Romanishin variation", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Bc5", "Nb3", "Bb4+"]}
+{"eco": "C44", "name": "Irish (Chicago) gambit", "moves": ["e4", "e5", "Nf3", "Nc6", "Nxe5", "Nxe5", "d4"]}
+{"eco": "B06", "name": "Norwegian defence", "moves": ["e4", "g6", "d4", "Nf6", "e5", "Nh5", "g4", "Ng7"]}
+{"eco": "C50", "name": "Blackburne shilling gambit", "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4", "Nd4", "Nxe5", "Qg5", "Nxf7", "Qxg2", "Rf1", "Qxe4+", "Be2", "Nf3+"]}
+{"eco": "D16", "name": "Queen's Gambit Declined Slav accepted, Alapin variation", "moves": ["d4", "d5", "c4", "c6", "Nf3", "Nf6", "Nc3", "dxc4", "a4"]}
+{"eco": "E10", "name": "Doery defence", "moves": ["d4", "Nf6", "c4", "e6", "Nf3", "Ne4"]}
+{"eco": "B00", "name": "KP, Nimzovich defence, Marshall gambit", "moves": ["e4", "Nc6", "d4", "d5", "exd5", "Qxd5", "Nc3"]}
+{"eco": "A53-A55", "name": "Old Indian defence", "moves": ["d4", "Nf6", "c4", "d6"]}
+{"eco": "B01", "name": "Scandinavian, Anderssen counter-attack", "moves": ["e4", "d5", "exd5", "Qxd5", "Nc3", "Qa5", "d4", "e5"]}
+{"eco": "A00", "name": "Van't Kruijs opening", "moves": ["e3"]}
+{"eco": "B00", "name": "KP, Nimzovich defence", "moves": ["e4", "Nc6", "Nf3"]}
+{"eco": "C40", "name": "Latvian, Nimzovich variation", "moves": ["e4", "e5", "Nf3", "f5", "Nxe5", "Qf6", "d4", "d6", "Nc4", "fxe4", "Ne3"]}
+{"eco": "B00", "name": "KP, Nimzovich defence, Wheeler gambit", "moves": ["e4", "Nc6", "b4", "Nxb4", "c3", "Nc6", "d4"]}
+{"eco": "B06", "name": "Robatsch defence, three pawns attack", "moves": ["e4", "g6", "d4", "Bg7", "f4"]}
+{"eco": "C44", "name": "Inverted Hanham", "moves": ["e4", "e5", "Nf3", "Nc6", "Be2", "Nf6", "d3", "d5", "Nbd2"]}
+{"eco": "C50", "name": "Hungarian defence", "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4", "Be7"]}
+{"eco": "C44", "name": "Ponziani, Leonhardt variation", "moves": ["e4", "e5", "Nf3", "Nc6", "c3", "d5", "Qa4", "Nf6"]}
+{"eco": "C40", "name": "Latvian gambit, 3.Bc4", "moves": ["e4", "e5", "Nf3", "f5", "Bc4"]}
+{"eco": "E11", "name": "Bogo-Indian defence, Nimzovich variation", "moves": ["d4", "Nf6", "c4", "e6", "Nf3", "Bb4+", "Bd2", "Qe7"]}
+{"eco": "C45", "name": "Scotch, Paulsen, Gunsberg defence", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Bc5", "Be3", "Qf6", "c3", "Nge7", "Bb5", "Nd8"]}
+{"eco": "C44", "name": "Scotch, Goering gambit", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "c3", "dxc3", "Nxc3", "Bb4"]}
+{"eco": "A01", "name": "Nimzovich-Larsen attack, symmetrical variation", "moves": ["b3", "b6"]}
+{"eco": "B06", "name": "Robatsch defence, two knights, Suttles variation", "moves": ["e4", "g6", "d4", "Bg7", "Nc3", "d6", "Nf3", "c6"]}
+{"eco": "B10-B19", "name": "Caro-Kann defence", "moves": ["e4", "c6"]}
+{"eco": "C45", "name": "Scotch, Schmidt variation", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Nf6"]}
+{"eco": "D03", "name": "Torre attack (Tartakower variation)", "moves": ["d4", "d5", "Nf3", "Nf6", "Bg5"]}
+{"eco": "C50", "name": "Giuoco Pianissimo, Dubois variation", "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5", "d3", "f5", "Ng5", "f4"]}
+{"eco": "D16", "name": "Queen's Gambit Declined Slav, Soultanbeieff variation", "moves": ["d4", "d5", "c4", "c6", "Nf3", "Nf6", "Nc3", "dxc4", "a4", "e6"]}
+{"eco": "B00", "name": "Hippopotamus defence", "moves": ["e4", "Nh6", "d4", "g6", "c4", "f6"]}
+{"eco": "C41", "name": "Philidor, Hanham, Krause variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "Nd7", "Bc4", "c6", "O-O"]}
+{"eco": "A00", "name": "Anderssen's opening", "moves": ["a3"]}
+{"eco": "C44", "name": "Scotch, Relfsson gambit ('MacLopez')", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Bb5"]}
+{"eco": "C41", "name": "Philidor, exchange variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "exd4", "Nxd4", "Nf6"]}
+{"eco": "C50", "name": "Giuoco Piano, Jerome gambit", "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5", "Bxf7+"]}
+{"eco": "C20", "name": "KP, Indian opening", "moves": ["e4", "e5", "d3"]}
+{"eco": "E12-E19", "name": "Queen's Indian defence", "moves": ["d4", "Nf6", "c4", "e6", "Nf3", "b6"]}
+{"eco": "B00", "name": "KP, Nimzovich defence", "moves": ["e4", "Nc6", "d4"]}
+{"eco": "A00", "name": "Amar gambit", "moves": ["Nh3", "d5", "g3", "e5", "f4", "Bxh3", "Bxh3", "exf4"]}
+{"eco": "A01", "name": "Nimzovich-Larsen attack, Polish variation", "moves": ["b3", "b5"]}
+{"eco": "C21-C22", "name": "Centre game", "moves": ["e4", "e5", "d4", "exd4"]}
+{"eco": "A00", "name": "Grob's attack", "moves": ["g4"]}
+{"eco": "B00", "name": "Corn stalk defence", "moves": ["e4", "a5"]}
+{"eco": "C41", "name": "Philidor, Nimzovich, Larobok variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "Nf6", "Nc3", "Nbd7", "Bc4", "Be7", "Ng5", "O-O", "Bxf7+"]}
+{"eco": "C44", "name": "King's pawn game", "moves": ["e4", "e5", "Nf3", "Nc6"]}
+{"eco": "C44", "name": "Ponziani, Reti variation", "moves": ["e4", "e5", "Nf3", "Nc6", "c3", "Nge7"]}
+{"eco": "D04-D05", "name": "Queen's pawn game", "moves": ["d4", "d5", "Nf3", "Nf6", "e3"]}
+{"eco": "D06", "name": "Queen's Gambit", "moves": ["d4", "d5", "c4"]}
+{"eco": "B00", "name": "KP, Neo-Mongoloid defence", "moves": ["e4", "Nc6", "d4", "f6"]}
+{"eco": "A43-A44", "name": "Old Benoni defence", "moves": ["d4", "c5"]}
+{"eco": "A56", "name": "Vulture defence", "moves": ["d4", "Nf6", "c4", "c5", "d5", "Ne4"]}
+{"eco": "B00", "name": "Carr's defence", "moves": ["e4", "h6"]}
+{"eco": "C41", "name": "Philidor, exchange variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "exd4"]}
+{"eco": "C41", "name": "Philidor's defence", "moves": ["e4", "e5", "Nf3", "d6"]}
+{"eco": "C41", "name": "Philidor, Nimzovich (Jaenisch) variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "Nf6"]}
+{"eco": "C46", "name": "Three knights game", "moves": ["e4", "e5", "Nf3", "Nc6", "Nc3"]}
+{"eco": "D00", "name": "Queen's pawn, stonewall attack", "moves": ["d4", "d5", "e3", "Nf6", "Bd3"]}
+{"eco": "E10", "name": "Blumenfeld counter-gambit accepted", "moves": ["d4", "Nf6", "c4", "e6", "Nf3", "c5", "d5", "b5", "dxe6", "fxe6", "cxb5", "d5"]}
+{"eco": "C41", "name": "Philidor, Nimzovich variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "Nf6", "dxe5"]}
+{"eco": "A01", "name": "Nimzovich-Larsen attack, classical variation", "moves": ["b3", "d5"]}
+{"eco": "A00", "name": "Venezolana opening", "moves": ["d3", "c5", "Nc3", "Nc6", "g3"]}
+{"eco": "B00", "name": "St. George (Baker) defence", "moves": ["e4", "a6"]}
+{"eco": "A47", "name": "Queen's Indian, Marienbad system", "moves": ["d4", "Nf6", "Nf3", "b6", "g3", "Bb7", "Bg2", "c5"]}
+{"eco": "A47", "name": "Queen's Indian defence", "moves": ["d4", "Nf6", "Nf3", "b6"]}
+{"eco": "B01", "name": "Scandinavian, Mieses-Kotrvc gambit", "moves": ["e4", "d5", "exd5", "Qxd5", "Nc3", "Qa5", "b4"]}
+{"eco": "C23-C24", "name": "Bishop's opening", "moves": ["e4", "e5", "Bc4"]}
+{"eco": "C44", "name": "Ponziani, Romanishin variation", "moves": ["e4", "e5", "Nf3", "Nc6", "c3", "Be7"]}
+{"eco": "C40", "name": "King's knight opening", "moves": ["e4", "e5", "Nf3"]}
+{"eco": "B01", "name": "Scandinavian, Marshall variation", "moves": ["e4", "d5", "exd5", "Nf6", "d4", "Nxd5"]}
+{"eco": "C20", "name": "King's pawn game", "moves": ["e4", "e5"]}
+{"eco": "C40", "name": "Latvian, Fraser defence", "moves": ["e4", "e5", "Nf3", "f5", "Nxe5", "Nc6"]}
+{"eco": "C41", "name": "Philidor, Philidor counter-gambit, Zukertort variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "f5", "Nc3"]}
+{"eco": "B01", "name": "Scandinavian defence", "moves": ["e4", "d5", "exd5", "Nf6"]}
+{"eco": "C44", "name": "Scotch, Cochrane variation", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "Nxd4", "Nxe5", "Ne6", "Bc4", "c6", "O-O", "Nf6", "Nxf7"]}
+{"eco": "D06", "name": "Queen's Gambit Declined, Marshall defence", "moves": ["d4", "d5", "c4", "Nf6"]}
+{"eco": "C51-C52", "name": "Evans gambit", "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5", "b4"]}
+{"eco": "B06", "name": "Robatsch defence, Pseudo-Austrian attack", "moves": ["e4", "g6", "d4", "Bg7", "Nc3", "d6", "f4"]}
+{"eco": "B06", "name": "Robatsch (modern) defence", "moves": ["e4", "g6"]}
+{"eco": "C44", "name": "Ponziani counter-gambit, Cordel variation", "moves": ["e4", "e5", "Nf3", "Nc6", "c3", "f5", "d4", "d6", "d5", "fxe4", "Ng5", "Nb8", "Nxe4", "Nf6", "Bd3", "Be7"]}
+{"eco": "D06", "name": "Queen's Gambit Declined, Grau (Sahovic) defence", "moves": ["d4", "d5", "c4", "Bf5"]}
+{"eco": "A00", "name": "Polish (Sokolsky) opening", "moves": ["b4"]}
+{"eco": "C41", "name": "Philidor, Nimzovich, Locock variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "Nf6", "Ng5"]}
+{"eco": "C41", "name": "Philidor, Hanham, Kmoch variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "Nd7", "Bc4", "c6", "Ng5"]}
+{"eco": "A00", "name": "Anti-Borg (Desprez) opening", "moves": ["h4"]}
+{"eco": "C41", "name": "Philidor, Hanham, Steiner variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "Nd7", "Bc4", "c6", "O-O", "Be7", "dxe5"]}
+{"eco": "C46", "name": "Three knights, Winawer defence (Gothic defence)", "moves": ["e4", "e5", "Nf3", "Nc6", "Nc3", "f5"]}
+{"eco": "A50", "name": "Queen's pawn game", "moves": ["d4", "Nf6", "c4"]}
+{"eco": "A00", "name": "Lasker simul special", "moves": ["g3", "h5"]}
+{"eco": "C44", "name": "Ponziani opening", "moves": ["e4", "e5", "Nf3", "Nc6", "c3"]}
+{"eco": "A00", "name": "Benko's opening", "moves": ["g3"]}
+{"eco": "B00", "name": "KP, Nimzovich defence, Bogolyubov variation", "moves": ["e4", "Nc6", "d4", "d5", "Nc3"]}
+{"eco": "C44", "name": "Ponziani counter-gambit", "moves": ["e4", "e5", "Nf3", "Nc6", "c3", "f5"]}
+{"eco": "B01", "name": "Scandinavian defence", "moves": ["e4", "d5", "exd5", "Qxd5", "Nc3", "Qa5", "d4", "Nf6", "Nf3", "Bf5"]}
+{"eco": "C41", "name": "Philidor, Nimzovich, Sozin variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "Nf6", "Nc3", "Nbd7", "Bc4", "Be7", "O-O", "O-O", "Qe2", "c6", "a4", "exd4"]}
+{"eco": "D00", "name": "Blackmar-Diemer gambit", "moves": ["d4", "d5", "Nc3", "Nf6", "e4"]}
+{"eco": "D00", "name": "Blackmar-Diemer, Lemberg counter-gambit", "moves": ["d4", "d5", "Nc3", "Nf6", "e4", "e5"]}
+{"eco": "D50-D69", "name": "Queen's Gambit Declined, 4.Bg5", "moves": ["d4", "d5", "c4", "e6", "Nc3", "Nf6", "Bg5"]}
+{"eco": "B06", "name": "Robatsch defence, two knights variation", "moves": ["e4", "g6", "d4", "Bg7", "Nc3", "d6", "Nf3"]}
+{"eco": "B00", "name": "Lemming defence", "moves": ["e4", "Na6"]}
+{"eco": "C40", "name": "QP counter-gambit (elephant gambit)", "moves": ["e4", "e5", "Nf3", "d5"]}
+{"eco": "C44", "name": "Scotch gambit, Cochrane variation", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Bc4", "Bb4+", "c3", "dxc3", "bxc3", "Ba5", "e5"]}
+{"eco": "C20", "name": "KP, Lopez opening", "moves": ["e4", "e5", "c3"]}
+{"eco": "A47", "name": "Queen's Indian, Marienbad system, Berg variation", "moves": ["d4", "Nf6", "Nf3", "b6", "g3", "Bb7", "Bg2", "c5", "c4", "cxd4", "Qxd4"]}
+{"eco": "A80-A99", "name": "Dutch", "moves": ["d4", "f5"]}
+{"eco": "C41", "name": "Philidor, Nimzovich, Rellstab variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "Nf6", "dxe5", "Nxe4", "Qd5"]}
+{"eco": "C45", "name": "Scotch game", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4"]}
+{"eco": "E10", "name": "Blumenfeld counter-gambit", "moves": ["d4", "Nf6", "c4", "e6", "Nf3", "c5", "d5", "b5"]}
+{"eco": "A00", "name": "Saragossa opening", "moves": ["c3"]}
+{"eco": "C25-C29", "name": "Vienna game", "moves": ["e4", "e5", "Nc3"]}
+{"eco": "B00", "name": "Fred", "moves": ["e4", "f5"]}
+{"eco": "C44", "name": "Scotch, Sea-cadet mate", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "c3", "dxc3", "Nxc3", "d6", "Bc4", "Bg4", "O-O", "Ne5", "Nxe5", "Bxd1", "Bxf7+", "Ke7", "Nd5+"]}
+{"eco": "A00", "name": "Durkin's attack", "moves": ["Na3"]}
+{"eco": "C44", "name": "Tayler opening", "moves": ["e4", "e5", "Nf3", "Nc6", "Be2", "Nf6", "d4"]}
+{"eco": "A56", "name": "Benoni defence", "moves": ["d4", "Nf6", "c4", "c5"]}
+{"eco": "B00", "name": "Fried fox defence", "moves": ["e4", "f6", "d4", "Kf7"]}
+{"eco": "B07-B09", "name": "Pirc defence", "moves": ["e4", "d6", "d4", "Nf6", "Nc3"]}
+{"eco": "C50", "name": "Giuoco Pianissimo, Canal variation", "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5", "d3", "Nf6", "Nc3", "d6", "Bg5"]}
+{"eco": "C45", "name": "Scotch game", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Bc5"]}
+{"eco": "A51-A52", "name": "Budapest defence", "moves": ["d4", "Nf6", "c4", "e5"]}
+{"eco": "E11", "name": "Bogo-Indian defence, Monticelli trap", "moves": ["d4", "Nf6", "c4", "e6", "Nf3", "Bb4+", "Bd2", "Bxd2+", "Qxd2", "b6", "g3", "Bb7", "Bg2", "O-O", "Nc3", "Ne4", "Qc2", "Nxc3", "Ng5"]}
+{"eco": "A00", "name": "Novosibirsk opening", "moves": ["Nc3", "c5", "d4", "cxd4", "Qxd4", "Nc6", "Qh4"]}
+{"eco": "C44", "name": "Scotch gambit, Cochrane-Shumov defence", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Bc4", "Bc5", "Ng5", "Nh6", "Nxf7", "Nxf7", "Bxf7+", "Kxf7", "Qh5+", "g6", "Qxc5", "d5"]}
+{"eco": "D00", "name": "Queen's pawn, Mason variation, Steinitz counter-gambit", "moves": ["d4", "d5", "Bf4", "c5"]}
+{"eco": "B01", "name": "Scandinavian defence, Lasker variation", "moves": ["e4", "d5", "exd5", "Qxd5", "Nc3", "Qa5", "d4", "Nf6", "Nf3", "Bg4", "h3"]}
+{"eco": "D00", "name": "Blackmar-Diemer, Euwe defence", "moves": ["d4", "d5", "Nc3", "Nf6", "e4", "dxe4", "f3", "exf3", "Nxf3", "e6"]}
+{"eco": "C44", "name": "Scotch gambit", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Bc4", "Bc5", "Ng5"]}
+{"eco": "D20-D29", "name": "Queen's gambit accepted", "moves": ["d4", "d5", "c4", "dxc4"]}
+{"eco": "A56", "name": "Benoni defence, Hromodka system", "moves": ["d4", "Nf6", "c4", "c5", "d5", "d6"]}
+{"eco": "E00", "name": "Neo-Indian (Seirawan) attack", "moves": ["d4", "Nf6", "c4", "e6", "Bg5"]}
+{"eco": "C41", "name": "Philidor, Philidor counter-gambit, Berger variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "f5", "dxe5", "fxe4", "Ng5", "d5", "e6", "Bc5", "Nc3"]}
+{"eco": "A00", "name": "Ware (Meadow Hay) opening", "moves": ["a4"]}
+{"eco": "A56", "name": "Czech Benoni, King's Indian system", "moves": ["d4", "Nf6", "c4", "c5", "d5", "e5", "Nc3", "d6", "e4", "g6"]}
+{"eco": "A00", "name": "Grob, Fritz gambit", "moves": ["g4", "d5", "Bg2", "Bxg4", "c4"]}
+{"eco": "C41", "name": "Philidor, Hanham, Schlechter variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "Nd7", "Bc4", "c6", "Nc3"]}
+{"eco": "C45", "name": "Scotch, Tartakower variation", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Nf6", "Nxc6", "bxc6", "Nd2"]}
+{"eco": "D00", "name": "Queen's pawn, Mason variation", "moves": ["d4", "d5", "Bf4"]}
+{"eco": "C40", "name": "Latvian, Behting variation", "moves": ["e4", "e5", "Nf3", "f5", "Bc4", "fxe4", "Nxe5", "Qg5", "Nf7", "Qxg2", "Rf1", "d5", "Nxh8", "Nf6"]}
+{"eco": "C50", "name": "Giuoco Pianissimo, Italian four knights variation", "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5", "d3", "Nf6", "Nc3"]}
+{"eco": "A42", "name": "Modern defence, Averbakh system, Randspringer variation", "moves": ["d4", "d6", "c4", "g6", "Nc3", "Bg7", "e4", "f5"]}
+{"eco": "C41", "name": "Philidor, Philidor counter-gambit, del Rio attack", "moves": ["e4", "e5", "Nf3", "d6", "d4", "f5", "dxe5", "fxe4", "Ng5", "d5", "e6"]}
+{"eco": "C44", "name": "Ponziani, Jaenisch counter-attack", "moves": ["e4", "e5", "Nf3", "Nc6", "c3", "Nf6"]}
+{"eco": "A01", "name": "Nimzovich-Larsen attack, English variation", "moves": ["b3", "c5"]}
+{"eco": "B01", "name": "Scandinavian defence", "moves": ["e4", "d5", "exd5", "Nf6", "d4"]}
+{"eco": "B06", "name": "Robatsch (modern) defence", "moves": ["e4", "g6", "d4", "Bg7"]}
+{"eco": "C20", "name": "KP, Mengarini's opening", "moves": ["e4", "e5", "a3"]}
+{"eco": "C45", "name": "Scotch, Meitner variation", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Bc5", "Be3", "Qf6", "c3", "Nge7", "Nc2"]}
+{"eco": "D00", "name": "Levitsky attack (Queen's bishop attack)", "moves": ["d4", "d5", "Bg5"]}
+{"eco": "C50", "name": "Rousseau gambit", "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4", "f5"]}
+{"eco": "E00", "name": "Catalan opening", "moves": ["d4", "Nf6", "c4", "e6", "g3"]}
+{"eco": "C45", "name": "Scotch, Pulling counter-attack", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Qh4"]}
+{"eco": "D02", "name": "Queen's pawn game, Krause variation", "moves": ["d4", "d5", "Nf3", "c5"]}
+{"eco": "A00", "name": "Grob, spike attack", "moves": ["g4", "d5", "Bg2", "c6", "g5"]}
+{"eco": "D16", "name": "Queen's Gambit Declined Slav, Smyslov variation", "moves": ["d4", "d5", "c4", "c6", "Nf3", "Nf6", "Nc3", "dxc4", "a4", "Na6", "e4", "Bg4"]}
+{"eco": "C45", "name": "Scotch, Blackburne attack", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Bc5", "Be3", "Qf6", "c3", "Nge7", "Qd2"]}
+{"eco": "A00", "name": "Battambang opening", "moves": ["Nc3", "e5", "a3"]}
+{"eco": "E11", "name": "Bogo-Indian defence", "moves": ["d4", "Nf6", "c4", "e6", "Nf3", "Bb4+"]}
+{"eco": "A50", "name": "Queen's Indian accelerated", "moves": ["d4", "Nf6", "c4", "b6"]}
+{"eco": "D02", "name": "Queen's pawn game", "moves": ["d4", "d5", "Nf3", "Nf6"]}
+{"eco": "A56", "name": "Czech Benoni defence", "moves": ["d4", "Nf6", "c4", "c5", "d5", "e5"]}
+{"eco": "B01", "name": "Scandinavian (centre counter) defence", "moves": ["e4", "d5"]}
+{"eco": "A00", "name": "Benko's opening, reversed Alekhine", "moves": ["g3", "e5", "Nf3"]}
+{"eco": "C41", "name": "Philidor, Berger variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "exd4", "Nxd4", "Nf6", "Nc3", "Be7", "Be2", "O-O", "O-O", "c5", "Nf3", "Nc6", "Bg5", "Be6", "Re1"]}
+{"eco": "C45", "name": "Scotch, Mieses variation", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Nf6", "Nxc6", "bxc6", "e5"]}
+{"eco": "C45", "name": "Scotch, Potter variation", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Bc5", "Nb3"]}
+{"eco": "D00", "name": "Queen's pawn game", "moves": ["d4", "d5"]}
+{"eco": "C46", "name": "Four knights, Gunsberg variation", "moves": ["e4", "e5", "Nf3", "Nc6", "Nc3", "Nf6", "a3"]}
+{"eco": "A00", "name": "Grob, Romford counter-gambit", "moves": ["g4", "d5", "Bg2", "Bxg4", "c4", "d4"]}
+{"eco": "A00", "name": "Clemenz (Mead's, Basman's or de Klerk's) opening", "moves": ["h3"]}
+{"eco": "B00", "name": "KP, Colorado counter", "moves": ["e4", "Nc6", "Nf3", "f5"]}
+{"eco": "D00", "name": "Queen's pawn, Chigorin variation", "moves": ["d4", "d5", "Nc3"]}
+{"eco": "C47-C49", "name": "Four knights, Scotch variation", "moves": ["e4", "e5", "Nf3", "Nc6", "Nc3", "Nf6", "d4"]}
+{"eco": "A00", "name": "Amsterdam attack", "moves": ["e3", "e5", "c4", "d6", "Nc3", "Nc6", "b3", "Nf6"]}
+{"eco": "C44", "name": "Scotch gambit", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Bc4", "Bb4+"]}
+{"eco": "A00", "name": "Dunst (Sleipner,Heinrichsen) opening", "moves": ["Nc3", "e5"]}
+{"eco": "D01", "name": "Richter-Veresov attack, Veresov variation", "moves": ["d4", "d5", "Nc3", "Nf6", "Bg5", "Bf5", "Bxf6"]}
+{"eco": "D01", "name": "Richter-Veresov attack, Richter variation", "moves": ["d4", "d5", "Nc3", "Nf6", "Bg5", "Bf5", "f3"]}
+{"eco": "E11", "name": "Bogo-Indian defence, Gruenfeld variation", "moves": ["d4", "Nf6", "c4", "e6", "Nf3", "Bb4+", "Nbd2"]}
+{"eco": "C46", "name": "Four knights game", "moves": ["e4", "e5", "Nf3", "Nc6", "Nc3", "Nf6"]}
+{"eco": "C45", "name": "Scotch game", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Qh4", "Nb5", "Bb4+", "Bd2"]}
+{"eco": "C44", "name": "Scotch opening", "moves": ["e4", "e5", "Nf3", "Nc6", "d4"]}
+{"eco": "D17-D19", "name": "Queen's Gambit Declined Slav, Czech defence", "moves": ["d4", "d5", "c4", "c6", "Nf3", "Nf6", "Nc3", "dxc4", "a4", "Bf5"]}
+{"eco": "C46", "name": "Four knights, Schultze-Mueller gambit", "moves": ["e4", "e5", "Nf3", "Nc6", "Nc3", "Nf6", "Nxe5"]}
+{"eco": "D00", "name": "Queen's pawn, Anti-Veresov", "moves": ["d4", "d5", "Nc3", "Bg4"]}
+{"eco": "D80-D99", "name": "Gruenfeld defence", "moves": ["d4", "Nf6", "c4", "g6", "Nc3", "d5"]}
+{"eco": "B02-B05", "name": "Alekhine's defence", "moves": ["e4", "Nf6"]}
+{"eco": "C41", "name": "Philidor, Nimzovich, Sokolsky variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "Nf6", "dxe5", "Nxe4", "Nbd2"]}
+{"eco": "C60-C99", "name": "Ruy Lopez (Spanish opening)", "moves": ["e4", "e5", "Nf3", "Nc6", "Bb5"]}
+{"eco": "C45", "name": "Scotch, Paulsen attack", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Bc5", "Be3", "Qf6", "c3", "Nge7", "Bb5"]}
+{"eco": "B01", "name": "Scandinavian defence, Gruenfeld variation", "moves": ["e4", "d5", "exd5", "Qxd5", "Nc3", "Qa5", "d4", "Nf6", "Nf3", "Bf5", "Ne5", "c6", "g4"]}
+{"eco": "A00", "name": "Global opening", "moves": ["h3", "e5", "a3"]}
+{"eco": "B01", "name": "Scandinavian, Icelandic gambit", "moves": ["e4", "d5", "exd5", "Nf6", "c4", "e6"]}
+{"eco": "C30-C39", "name": "King's gambit", "moves": ["e4", "e5", "f4"]}
+{"eco": "B00", "name": "Barnes defence", "moves": ["e4", "f6"]}
+{"eco": "B01", "name": "Scandinavian gambit", "moves": ["e4", "d5", "exd5", "Nf6", "c4", "c6"]}
+{"eco": "C55-C59", "name": "Two knights defence", "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4", "Nf6"]}
+{"eco": "D00", "name": "Blackmar gambit", "moves": ["d4", "d5", "e4"]}
+{"eco": "C46", "name": "Four knights, Italian variation", "moves": ["e4", "e5", "Nf3", "Nc6", "Nc3", "Nf6", "Bc4"]}
+{"eco": "A42", "name": "Modern defence, Averbakh system", "moves": ["d4", "d6", "c4", "g6", "Nc3", "Bg7", "e4"]}
+{"eco": "C41", "name": "Philidor, exchange variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "exd4", "Nxd4"]}
+{"eco": "C41", "name": "Philidor, Nimzovich, Klein variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "Nf6", "Bc4"]}
+{"eco": "C20", "name": "KP, Patzer opening", "moves": ["e4", "e5", "Qh5"]}
+{"eco": "B06", "name": "Robatsch defence", "moves": ["e4", "g6", "d4", "Bg7", "Nc3"]}
+{"eco": "A01", "name": "Nimzovich-Larsen attack, Indian variation", "moves": ["b3", "Nf6"]}
+{"eco": "E10", "name": "Queen's pawn game", "moves": ["d4", "Nf6", "c4", "e6", "Nf3"]}
+{"eco": "A00", "name": "Polish, Tuebingen variation", "moves": ["b4", "Nh6"]}
+{"eco": "A01", "name": "Nimzovich-Larsen attack", "moves": ["b3"]}
+{"eco": "C41", "name": "Philidor, Hanham, Delmar variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "Nd7", "Bc4", "c6", "c3"]}
+{"eco": "C42-C43", "name": "Petrov's defence", "moves": ["e4", "e5", "Nf3", "Nf6"]}
+{"eco": "C40", "name": "Gunderam defence", "moves": ["e4", "e5", "Nf3", "Qe7"]}
+{"eco": "C41", "name": "Philidor's defence", "moves": ["e4", "e5", "Nf3", "d6", "d4"]}
+{"eco": "B20-B99", "name": "Sicilian defence", "moves": ["e4", "c5"]}
+{"eco": "C45", "name": "Scotch, Berger variation", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Qh4", "Nb5", "Bb4+", "Nd2", "Qxe4+", "Be2", "Qxg2", "Bf3", "Qh3", "Nxc7+", "Kd8", "Nxa8", "Nf6", "a3"]}
+{"eco": "C20", "name": "KP, Napoleon's opening", "moves": ["e4", "e5", "Qf3"]}
+{"eco": "C40", "name": "Damiano's defence", "moves": ["e4", "e5", "Nf3", "f6"]}
+{"eco": "A00", "name": "Hammerschlag (Fried fox/Pork chop opening)", "moves": ["f3", "e5", "Kf2"]}
+{"eco": "C44", "name": "Ponziani, Caro variation", "moves": ["e4", "e5", "Nf3", "Nc6", "c3", "d5", "Qa4", "Bd7"]}
+{"eco": "C41", "name": "Philidor, Lopez counter-gambit, Jaenisch variation", "moves": ["e4", "e5", "Nf3", "d6", "Bc4", "f5", "d4", "exd4", "Ng5", "Nh6", "Nxh7"]}
+{"eco": "C45", "name": "Scotch, Gottschall variation", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Bc5", "Be3", "Qf6", "c3", "Nge7", "Qd2", "d5", "Nb5", "Bxe3", "Qxe3", "O-O", "Nxc7", "Rb8", "Nxd5", "Nxd5", "exd5", "Nb4"]}
+{"eco": "A40-A41", "name": "Queen's pawn", "moves": ["d4"]}
+{"eco": "A45-A46", "name": "Queen's pawn game", "moves": ["d4", "Nf6"]}
+{"eco": "C44", "name": "Scotch gambit", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Bc4"]}
+{"eco": "C45", "name": "Scotch, Rosenthal variation", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Nxd4", "Qh4", "Nb5", "Bb4+", "Bd2", "Qxe4+", "Be2", "Kd8", "O-O", "Bxd2", "Nxd2", "Qg6"]}
+{"eco": "C41", "name": "Philidor, Improved Hanham variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "Nf6", "Nc3", "Nbd7"]}
+{"eco": "B01", "name": "Scandinavian, Anderssen counter-attack, Collijn variation", "moves": ["e4", "d5", "exd5", "Qxd5", "Nc3", "Qa5", "d4", "e5", "Nf3", "Bg4"]}
+{"eco": "D01", "name": "Richter-Veresov attack", "moves": ["d4", "d5", "Nc3", "Nf6", "Bg5"]}
+{"eco": "D70-D79", "name": "Neo-Gruenfeld defence", "moves": ["d4", "Nf6", "c4", "g6", "f3", "d5"]}
+{"eco": "A42", "name": "Modern defence, Averbakh system, Kotov variation", "moves": ["d4", "d6", "c4", "g6", "Nc3", "Bg7", "e4", "Nc6"]}
+{"eco": "C50", "name": "Giuoco Pianissimo", "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5", "d3"]}
+{"eco": "D10-D15", "name": "Queen's Gambit Declined Slav defence", "moves": ["d4", "d5", "c4", "c6"]}
+{"eco": "B01", "name": "Scandinavian, Anderssen counter-attack orthodox attack", "moves": ["e4", "d5", "exd5", "Qxd5", "Nc3", "Qa5", "d4", "e5", "dxe5", "Bb4", "Bd2", "Nc6", "Nf3"]}
+{"eco": "C50", "name": "Giuoco Piano", "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5"]}
+{"eco": "A10-A39", "name": "English opening", "moves": ["c4"]}
+{"eco": "C41", "name": "Philidor, Hanham, Berger variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "Nd7", "Bc4", "c6", "Ng5", "Nh6", "f4", "Be7", "O-O", "O-O", "c3", "d5"]}
+{"eco": "C41", "name": "Philidor, Steinitz variation", "moves": ["e4", "e5", "Nf3", "d6", "Bc4", "Be7", "c3"]}
+{"eco": "A00", "name": "Mieses opening", "moves": ["d3"]}
+{"eco": "C41", "name": "Philidor, Philidor counter-gambit", "moves": ["e4", "e5", "Nf3", "d6", "d4", "f5"]}
+{"eco": "C44", "name": "Dresden opening", "moves": ["e4", "e5", "Nf3", "Nc6", "c4"]}
+{"eco": "C44", "name": "Scotch gambit, Hanneken variation", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Bc4", "Bb4+", "c3", "dxc3", "O-O", "cxb2", "Bxb2", "Nf6", "Ng5", "O-O", "e5", "Nxe5"]}
+{"eco": "C40", "name": "Latvian counter-gambit", "moves": ["e4", "e5", "Nf3", "f5"]}
+{"eco": "C41", "name": "Philidor, Boden variation", "moves": ["e4", "e5", "Nf3", "d6", "d4", "exd4", "Qxd4", "Bd7"]}
+{"eco": "C44", "name": "Inverted Hungarian", "moves": ["e4", "e5", "Nf3", "Nc6", "Be2"]}
+{"eco": "C50", "name": "Giuoco Pianissimo", "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5", "d3", "Nf6"]}
+{"eco": "C44", "name": "Konstantinopolsky opening", "moves": ["e4", "e5", "Nf3", "Nc6", "g3"]}
+{"eco": "D02", "name": "Queen's bishop game", "moves": ["d4", "d5", "Nf3", "Nf6", "Bf4"]}
+{"eco": "D30-D42", "name": "Queen's gambit declined", "moves": ["d4", "d5", "c4", "e6"]}
+{"eco": "C20", "name": "Alapin's opening", "moves": ["e4", "e5", "Ne2"]}
+{"eco": "B06", "name": "Robatsch (modern) defence", "moves": ["e4", "g6", "d4", "Bg7", "Nc3", "d6"]}
+{"eco": "C44", "name": "Ponziani counter-gambit, Schmidt attack", "moves": ["e4", "e5", "Nf3", "Nc6", "c3", "f5", "d4", "d6", "d5"]}
+{"eco": "D06", "name": "Queen's Gambit Declined, symmetrical (Austrian) defence", "moves": ["d4", "d5", "c4", "c5"]}
+{"eco": "D07-D09", "name": "Queen's Gambit Declined, Chigorin defence", "moves": ["d4", "d5", "c4", "Nc6"]}
+{"eco": "E60-E99", "name": "King's Indian defence", "moves": ["d4", "Nf6", "c4", "g6"]}
+{"eco": "B00", "name": "Guatemala defence", "moves": ["e4", "b6", "d4", "Ba6"]}
+{"eco": "D02", "name": "Queen's pawn game, Chigorin variation", "moves": ["d4", "d5", "Nf3", "Nc6"]}
+{"eco": "C44", "name": "Scotch, Goering gambit", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "c3"]}
+{"eco": "C44", "name": "Scotch gambit, Dubois-Reti defence", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Bc4", "Nf6"]}
+{"eco": "A00", "name": "Polish, Outflank variation", "moves": ["b4", "c6"]}
+{"eco": "E10", "name": "Dzindzikhashvili defence", "moves": ["d4", "Nf6", "c4", "e6", "Nf3", "a6"]}
+{"eco": "C44", "name": "Scotch gambit, Vitzhum attack", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "exd4", "Bc4", "Bc5", "Ng5", "Nh6", "Qh5"]}
+{"eco": "D16", "name": "Queen's Gambit Declined Slav, Steiner variation", "moves": ["d4", "d5", "c4", "c6", "Nf3", "Nf6", "Nc3", "dxc4", "a4", "Bg4"]}
+{"eco": "E01-E09", "name": "Catalan, closed", "moves": ["d4", "Nf6", "c4", "e6", "g3", "d5", "Bg2"]}
+{"eco": "D43-D49", "name": "Queen's Gambit Declined semi-Slav", "moves": ["d4", "d5", "c4", "e6", "Nc3", "Nf6", "Nf3", "c6"]}
+{"eco": "C44", "name": "Scotch, Lolli variation", "moves": ["e4", "e5", "Nf3", "Nc6", "d4", "Nxd4"]}
+{"eco": "C40", "name": "Latvian, corkscrew counter-gambit", "moves": ["e4", "e5", "Nf3", "f5", "Bc4", "fxe4", "Nxe5", "Nf6"]}
+{"eco": "C50", "name": "King's pawn game", "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4"]}
+{"eco": "B00", "name": "Owen defence", "moves": ["e4", "b6"]}
+{"eco": "A04-A09", "name": "Reti opening", "moves": ["Nf3"]}
+{"eco": "C40", "name": "Greco defence", "moves": ["e4", "e5", "Nf3", "Qf6"]}

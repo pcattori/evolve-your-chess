@@ -11,6 +11,10 @@ setup(
     install_requires=[
         'networkx==1.11',
         'python-chess==0.16.1'],
+    package_dir={'evolveyourchess': 'evolveyourchess', 'fetch': 'fetch'},
+    package_data={
+        'evolveyourchess': ['data/eco.json', 'bin/stockfish-8-popcnt'],
+        'fetch': ['bin/chromedriver']},
     extras_require={'fetch': [
         'beautifulsoup4==4.5.1',
         'requests==2.12.4',
