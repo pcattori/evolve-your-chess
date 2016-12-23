@@ -27,5 +27,3 @@ for color in ['White', 'Black']:
     recommended = analyzer.consult(position)['pv'][1][0]
     print('EYC recommends:', board.san(recommended))
 
-engine.quit()
-
